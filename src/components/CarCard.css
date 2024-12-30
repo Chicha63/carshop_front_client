@@ -1,0 +1,17 @@
+.car-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.car-card.large {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.car-card.small {
+    width: 180px;
+    margin: 10px;
+}

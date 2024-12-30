@@ -1,0 +1,105 @@
+.filters-card {
+    margin-top: 10px;
+    background: #d95b4b;
+    border: 1px solid #ddd;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    padding: 20px;
+    color: #fdfdfd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filters-horizontaly{
+    display: inline-flex;
+    width: 100%;
+}
+
+.filters-basic1{
+    width: 100%;
+}
+
+.filters-basic2{
+    margin-left: 20px;
+    width: 100%;
+}
+
+.filters-advanced1{
+    width: 100%;
+}
+
+.filters-advanced2{
+    width: 100%;
+    margin-left: 20px;
+}
+
+.filter-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.filter-group input {
+    width: 97%;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left: 9px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.filter-group select {
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.filters-expand-button {
+    background: #d95b4b;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 45%;
+    margin-left: auto;
+    margin-right: 63px;
+}
+
+.filters-expand-button:hover {
+    background: #ca5545;
+}
+
+.filters-advanced {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.apply-filters-button {
+    background: #219ae5;
+
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 45%;
+}
+
+.apply-filters-button:hover {
+    background: #1874ae;
+}

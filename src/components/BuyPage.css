@@ -1,0 +1,188 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f6fa;
+    color: #333;
+}
+
+/* Login Page Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+}
+
+.login-box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+.login-field {
+    margin-bottom: 15px;
+}
+
+.login-field label {
+    font-size: 14px;
+    color: #636e72;
+}
+
+.login-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.login-error {
+    color: #d63031;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    background: #0984e3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.login-button:hover {
+    background: #74b9ff;
+}
+
+.signup-prompt {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.signup-link {
+    color: #0984e3;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+/* Checkout Page Styles */
+.checkout-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.checkout-box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.checkout-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3436;
+}
+
+.order-summary {
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    border: 1px solid #dfe6e9;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+.order-summary:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.car-image img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.order-summary p {
+    margin: 5px 0;
+    color: #2d3436;
+}
+
+.checkout-field {
+    margin-bottom: 15px;
+}
+
+.checkout-field label {
+    font-size: 14px;
+    color: #636e72;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkout-field select,
+.checkout-field input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.checkout-button {
+    background: #00b894;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.checkout-button:hover {
+    background: #55efc4;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .checkout-box {
+        padding: 15px;
+    }
+
+    .order-summary {
+        padding: 10px;
+    }
+
+    .checkout-field label,
+    .checkout-field select,
+    .checkout-field input {
+        font-size: 14px;
+    }
+}

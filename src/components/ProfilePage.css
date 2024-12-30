@@ -1,0 +1,177 @@
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box,
+.deals-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box h2,
+.deals-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.editable-field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.editable-field label {
+    flex: 0 0 150px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.editable-field input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: background-color 0.2s ease;
+}
+
+.editable-field input:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+
+.edit-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: #007bff;
+    transition: color 0.2s ease;
+}
+
+.edit-button:hover {
+    color: #0056b3;
+}
+
+.password-change {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.password-fields label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+.password-fields input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.change-password-button,
+.save-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.change-password-button:hover,
+.save-button:hover {
+    background-color: #0056b3;
+}
+
+.deals-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.deal-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.deal-car-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.deal-car-info strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.details-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #e54b3c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: #b13a2f;
+}
+
+.loading,
+.error-message {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 40px;
+}

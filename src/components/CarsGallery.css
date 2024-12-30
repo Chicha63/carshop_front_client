@@ -1,0 +1,34 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.buy-button1,
+.details-button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button1 {
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+.buy-button1:hover {
+    background-color: #219150;
+}
+
+.details-button {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.details-button:hover {
+    background-color: #2980b9;
+}
